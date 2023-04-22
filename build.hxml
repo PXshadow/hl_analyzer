@@ -1,0 +1,18 @@
+-m Main
+--macro define('go2hx')
+--macro stdgo.internal.Macro.init()
+-D js-es=6
+-D message-reporting=pretty
+-D source-map
+-D shallow-expose
+-D keep-inline-positions
+-D std-encoding-utf8
+-D simulate_num
+-D no-deprecation-warnings
+-D hl-ver=1.13.0
+#-D analyzer-no-fusion
+-cp .
+--hl build.hl
+--times
+-D macro-times
+-D analyzer-times
