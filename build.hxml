@@ -9,10 +9,11 @@
 -D std-encoding-utf8
 -D simulate_num
 -D no-deprecation-warnings
--D hl-ver=1.13.0
+#-D hl-ver=1.11.0
 #-D analyzer-no-fusion
 -cp .
 --hl build.hl
 --times
 -D macro-times
 -D analyzer-times
+-D filter-times=2
